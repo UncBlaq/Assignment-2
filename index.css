@@ -75,6 +75,10 @@ header {
     color: hsl(240, 70%, 50%);
     transition: color 1s ease-in-out;
   }
+  > a:focus {
+    border: none;
+    outline: 2px solid hsl(207.27, 100%, 50%);
+  }
   > a:last-child {
     display: none;
   }
