@@ -80,8 +80,11 @@ header {
   > a:focus {
     border: none;
     outline: 2px solid hsl(207.27, 100%, 50%);
+<<<<<<< HEAD
     color: hsl(240, 70%, 50%);
     transition: color 1s ease-in-out;
+=======
+>>>>>>> 5892c4052c1e7414d2ed72f26e4bc3183ae2b246
   }
   > a:last-child {
     display: none;
