@@ -118,6 +118,9 @@ main {
     margin-block-start: 50px;
     margin-inline: auto;
     padding: 30px;
+   & label {
+      font-weight: 550;
+  }
   
     > div:first-of-type > div:first-of-type > input {
       border: 1px solid hsl(120, 27%, 49%);
@@ -291,9 +294,7 @@ footer{
             margin-inline: auto;
             padding-inline-start: 10px;
             padding-block-end:20px;
-            label {
-              font-weight: 550;
-          }
+         
           & br +input, br + select  {
               margin-top: 8px;
           }
