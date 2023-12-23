@@ -118,10 +118,7 @@ main {
     margin-block-start: 50px;
     margin-inline: auto;
     padding: 30px;
-    &:focus {
-        border: none;
-        outline: 2px solid hsl(207.27, 100%, 50%);
-      }
+  
     > div:first-of-type > div:first-of-type > input {
       border: 1px solid hsl(120, 27%, 49%);
       &::placeholder {
