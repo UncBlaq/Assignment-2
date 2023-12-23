@@ -118,7 +118,7 @@ main {
     margin-block-start: 50px;
     margin-inline: auto;
     padding: 30px;
-    &:focus, &:hover {
+    &:focus {
         border: none;
         outline: 2px solid hsl(207.27, 100%, 50%);
       }
@@ -210,6 +210,9 @@ main {
     outline: 2px solid hsl(207.27, 100%, 50%);
   }
 }
+footer{
+  display: none;
+}
 
 
 @media (max-width: 850px) {
@@ -291,6 +294,12 @@ main {
             margin-inline: auto;
             padding-inline-start: 10px;
             padding-block-end:20px;
+            label {
+              font-weight: 550;
+          }
+          & br +input, br + select  {
+              margin-top: 8px;
+          }
         }
         >form>div:first-of-type {
           margin-top: 0px;
@@ -302,6 +311,9 @@ main {
         padding-block-start: 10px;
 
         }
+        >form>h2 {
+          display: none;
+      }
         >form * {
             flex-direction: column;
         } 
@@ -329,7 +341,24 @@ main {
         width: 295px;
       }
     }
-  
+    footer {
+      display: block;
+      width: 316px;
+      margin-inline: auto;
+      font-weight: bold;
+      & p {
+          font-weight: 550;
+      }
+      & a {
+          border-bottom: 1px solid hsl(120, 27%, 49%);
+          text-decoration: none;
+          color: hsl(120, 27%, 49%);
+          &:focus {
+            border: none;
+            outline: 2px solid hsl(207.27, 100%, 50%);
+      }
+  }
+}
   
 }
 
